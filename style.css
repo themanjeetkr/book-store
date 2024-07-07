@@ -1,0 +1,313 @@
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.icone {
+    font-size: 4vw;
+    color: orangered;
+}
+
+.recent {
+    padding-top: 6vh;
+    text-align: center;
+    color: red;
+    text-shadow: #3b3d3a;
+
+}
+.recentUploads{
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    color: #f3f3f3;
+    background: #636e72;
+    position: sticky;
+}
+
+#menu {
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+
+}
+
+#menu li a {
+    color: #f3f3f3;
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu li a:hover {
+    background-color: #3b3d3a;
+}
+
+#companycom {
+    color: azure;
+    font-size: 1cm;
+}
+
+#banner {
+    /* padding-top: 100px; */
+    background-image: url('./images/city.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    height:600px
+}
+
+.banner-title{
+    padding-top: 100px;
+}
+
+.banner-title h1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.banner-title p {
+    background-color: rgba(71, 57, 48, 0.6);
+    color: white;
+    font-weight: 350;
+    padding: 10px;
+}
+
+.section h2.section-head {
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after {
+    background-color: aqua;
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 4px;
+    margin: 20px auto;
+}
+
+#testimonial {
+    color: aliceblue;
+    background-image: url('./images/earth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+}
+
+#testimonial img {
+    height: 2cm;
+    width: 2cm;
+    border-radius: 50%;
+}
+
+.testimonial {
+    color: #f3f3f3;
+}
+
+#testimonial:before {
+    background: rgba(52, 73, 94, .5);
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.news-post img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.post-date::before {
+    content: '\f073';
+    padding: 5px;
+    font-family: fontAwesome;
+}
+
+#footer-sidebar {
+    color: white;
+    margin-top: 2cm;
+    background-color: #2f2f2f;
+}
+
+.footer-widget h4:after {
+    content: "";
+    background-color: red;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px;
+}
+
+.footer-widget a {
+    color: #f3f3f3;
+}
+
+#lnews {
+    list-style: none;
+}
+
+#lfoot {
+    background-color: #3b3d3a;
+    color: white;
+}
+
+#social-icon li {
+    display: inline-block;
+    color: white;
+
+}
+
+#footer {
+    color: white;
+    background-color: #0b0e0f;
+
+}
+
+#footer a {
+    color: #f3f3f3;
+}
+
+
+
+/* about us */
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #481daa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containerf {
+    color: rgb(27, 1, 1);
+    font-weight: bold;
+    border-radius: 5px;
+    background: rgba(134, 132, 132, 0.6);
+    padding: 20px;
+}
+
+
+
+/* story=========================================================================== */
+#harry img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 60px;
+    text-shadow: rgba(52, 73, 94, .5) 0, 10px;
+
+}
+
+#harrystory {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: solid #04AA6D;
+
+}
+.button-n{
+    padding: 50px;
+}
+#btn-1{
+    height: 200px;
+    
+    width: 400px;
+    background: url(images/enola1.jpg);
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    color: rgb(231, 218, 255);
+}
+
+/* product============================================s */
+
+#card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding-top: 1cm;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+#card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(238, 82, 71);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+
+#productpage img {
+    padding: 1cm;
+}
